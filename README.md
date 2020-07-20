@@ -19,7 +19,9 @@ Sum-of-Product 형태의 논리식을 Quine-McCluskey 방법으로 모든 Prime 
 Prime Implicant 중 Essential Prime Implicant를 먼저 출력하고 그 후에 Non-Essential Prime Implicant를 출력합니다.  
 출력의 시작은 EPI로 시작하여 먼저 Essential Prime Implicant를 출력하고 바로 다음에 NEPI로 시작하여 나머지 Prime Implicant를 출력합니다. (문자열 EPI와 NEPI는 반드시 출력합니다.)  
 예) [EPI, 00-1, 1001, - -00, NEPI, 0000, 0011, 1-11, -000 ]  
-입출력 예  
+
+
+## 입출력 예  
 
 Input: [3, 6, 0, 1, 2, 5, 6, 7]  
 output: [EPI, NEPI, 00-, 0-0, 11-, 1-1, -01, -10]  
